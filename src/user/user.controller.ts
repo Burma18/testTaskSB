@@ -9,7 +9,6 @@ const editUser = async (req: Request, res: Response) => {
 
   let photo;
 
-  console.log(req.file);
   if (req.file) {
     photo = req.file.filename;
 
